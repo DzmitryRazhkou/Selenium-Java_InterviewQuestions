@@ -1,0 +1,10 @@
+org/example/basepage/BasePage.class
+org/example/utils/ConfigReader.class
+org/example/utils/BrowserFactory$Environment.class
+org/example/utils/BrowserFactory.class
+org/example/utils/Screenshot.class
+org/example/utils/BrowserFactory$Browser.class
+org/example/constants/Paths.class
+org/example/pages/OpenPage.class
+org/example/utils/BrowserFactory$1.class
+org/example/pages/NewsPage.class

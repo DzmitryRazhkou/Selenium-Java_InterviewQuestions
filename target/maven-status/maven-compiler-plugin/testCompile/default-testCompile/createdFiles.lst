@@ -1,0 +1,5 @@
+org/example/basetest/BaseTest.class
+org/example/listeners/RetryAnalyzer.class
+org/example/listeners/ExtentReportListener.class
+org/example/tests/NewsPageTest.class
+org/example/listeners/Listeners.class

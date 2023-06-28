@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Take Home WebDriver Test Smoke Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="org.example.listeners.Listeners"/>
+        <listener class-name="org.example.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <!--We can create each test class and run all test parallel on the classes level,
+but in our case, it doesn't make any sense because each class will have only one test inside-->
+
+    <parameter name="browser" value="CHROME"/>
+    <test name="Selenium Take Home WebDriver">
+        <classes>
+            <class name="org.example.tests.NewsPageTest">
+                <methods>
+                    <include name="generateExceptions"/>
+                    <include name="dropDownLoop"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

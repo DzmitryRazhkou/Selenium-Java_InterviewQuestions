@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.example.tests.NewsPageTest">
+        <methods>
+          <include name="sendTextWithOutSendMethod"/>
+          <include name="topNewsList"/>
+          <include name="mouseHoverTest"/>
+          <include name="dragAndDropClickHoldRelease"/>
+          <include name="stringBuffer"/>
+          <include name="readProperties"/>
+          <include name="loginSetGetCookies"/>
+          <include name="highLightWebElement"/>
+          <include name="doKeyboardAction"/>
+          <include name="findBrokenImages"/>
+          <include name="dropDownSelectOption"/>
+          <include name="handleScrollUpDown"/>
+          <include name="doSauceDemo"/>
+          <include name="generateExceptions"/>
+          <include name="tearDown"/>
+          <include name="handleNewTab"/>
+          <include name="dragAndDrop"/>
+          <include name="disabledImages"/>
+          <include name="validateTitlePage"/>
+          <include name="dropDownMenu"/>
+          <include name="dropDownMenuCertainOption"/>
+          <include name="findBrokenLinks"/>
+          <include name="loginActionsClick"/>
+          <include name="handleJSAlertTest"/>
+          <include name="dropDownLoop"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- org.example.tests.NewsPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
